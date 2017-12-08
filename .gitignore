@@ -1,0 +1,67 @@
+# /docs/
+/docs/_build/
+/docs/icons.rst.inc
+
+# General
+*.bak
+*.pyc
+*.pyo
+*.prefs
+*.stats
+*.pending
+*.po.tm
+.translation_index
+.DS_Store
+
+# Django cache
+*.djcache
+
+# npm
+node_modules/
+
+# webpack
+.module-cache
+*.bundle.js
+*.bundle.js.map
+
+# Temporary/local files
+~*
+
+# ViM-generated
+*.swn
+*.swo
+*.swp
+*~
+
+# Emacs-generated
+.#*
+\#*#
+
+# Ignore stuff from the 'gh-pages' branch
+assets/
+_layouts/
+_site/
+
+# Build stuff
+dist/
+build/
+Pootle.egg-info/
+
+# PyDev (Intellij) local configuration folder
+.idea
+
+# local log direcotry
+log/
+
+# Eclipse PyDev projects
+.project
+.pydevproject
+
+# custom manage shell script
+rqworker
+manage
+
+*egg-info
+
+.cache
+.coverage
