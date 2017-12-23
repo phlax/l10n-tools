@@ -1,0 +1,18 @@
+{
+    "extensionName": {
+	"message": "l10n-tools-caighdean",
+	"description": "Name of the extension."
+    },
+    "extensionDescription": {
+	"message": "Web extension with Caighdean MT",
+	"description": "Description of the extension."
+    },
+    "servicesMTCaighdean": {
+	"message": "Caighdean machine translation service",
+	"description": "Title in list of installed services"
+    },
+    "servicesMTCaighdean2": {
+	"message": "Caighdean (2) machine translation service",
+	"description": "Title in list of installed services"
+    }
+}
