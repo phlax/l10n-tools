@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "L10n-tools-github",
+  "version": "1.0",
+  "description": "Show content from web apps in github",
+  "applications": {
+    "gecko": {
+      "id": "github@l10n.mozilla.com",
+      "strict_min_version": "54.0a1"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["dist/content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "images/github.svg"
+  ],
+  "background": {
+      "scripts": ["dist/github.js"]
+  }
+}
