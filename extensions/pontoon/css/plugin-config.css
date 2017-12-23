@@ -1,0 +1,11 @@
+
+body {
+}
+
+#config h2 img {
+    width: 1em;
+}
+
+#config h2 span {
+    padding-left: .3em;
+}

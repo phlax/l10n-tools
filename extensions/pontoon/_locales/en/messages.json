@@ -1,0 +1,38 @@
+{
+    "extensionName": {
+	"message": "l10n-tools-pontoon",
+	"description": "Name of the extension."
+    },
+    "extensionDescription": {
+	"message": "Web extension for Pontoon localization",
+	"description": "Description of the extension."
+    },
+    "pontoon": {
+	"message": "Pontoon!",
+	"description": "Title of list of installed plugins"
+    },
+    "pontoon-other": {
+	"message": "Pontoon Other!",
+	"description": "Title of list of installed plugins"
+    },
+    "fooNotification": {
+	"message": "Foo notification",
+	"description": "Testing notifications"
+    },
+    "barNotification": {
+	"message": "Bar notification",
+	"description": "Testing notifications"
+    },
+    "preferenceFoo": {
+	"message": "Foo preference",
+	"description": "Testing preferences"
+    },
+    "breferenceBar": {
+	"message": "Bar preference",
+	"description": "Testing preferences"
+    },
+    "preferenceBaz": {
+	"message": "Baz preference",
+	"description": "Testing preferences"
+    }
+}
