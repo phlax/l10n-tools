@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "L10n-tools-pootle",
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "id": "pootle@l10n.mozilla.com",
+      "strict_min_version": "54.0a1"
+    }
+  },
+  "options_ui": {
+    "page": "html/config.html"
+  },
+  "web_accessible_resources": [
+    "images/pootle.svg",
+    "images/document-foundation.svg"
+  ],
+  "background": {
+      "scripts": ["dist/pootle.js"]
+  }
+}
