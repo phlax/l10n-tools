@@ -1,0 +1,14 @@
+{
+    "extensionName": {
+	"message": "l10n-tools-checks",
+	"description": "Name of the extension."
+    },
+    "extensionDescription": {
+	"message": "Web extension with Checks MT",
+	"description": "Description of the extension."
+    },
+    "toolsChecksBasic": {
+	"message": "Basic checks",
+	"description": "Title of list of basic checks"
+    }
+}

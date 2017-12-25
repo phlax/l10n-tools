@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "L10n-tools-checks",
+    "description": "Some basic l10n checks",
+    "version": "1.0",
+    "default_locale": "en",
+    "applications": {
+        "gecko": {
+            "id": "checks@l10n.mozilla.com",
+            "strict_min_version": "54.0a1"
+        }
+    },
+    "web_accessible_resources": [
+        "images/checks.svg"
+    ],
+    "background": {
+        "scripts": ["dist/checks.js"]
+    }
+}
