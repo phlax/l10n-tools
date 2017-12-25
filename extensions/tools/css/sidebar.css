@@ -1,0 +1,24 @@
+body {
+  width: 400px;
+  padding: 1em;
+}
+
+h1, h2 {
+  border-bottom: 1px solid;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
+
+body, div, ul, li, dl, dt, dd {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li, dl, dt, dd {
+    padding-left: 0.2em;
+}

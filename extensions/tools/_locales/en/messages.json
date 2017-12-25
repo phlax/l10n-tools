@@ -1,0 +1,150 @@
+{
+    "extensionName": {
+	"message": "l10n-tools",
+	"description": "Name of the extension."
+    },
+    "extensionDescription": {
+	"message": "Web extension for localization",
+	"description": "Description of the extension."
+    },
+    "preferences": {
+	"message": "Preferences",
+	"description": "Link to preferences UI."
+    },
+    "notifications": {
+	"message": "Notifications",
+	"description": "Link to notifications UI."
+    },
+    "webApps": {
+	"message": "Web apps",
+	"description": "Link to web apps UI."
+    },
+    "appsL10nWebAppName": {
+	"message": "Online localization platforms",
+	"description": "Title for lists of localization apps."
+    },
+    "checks": {
+	"message": "Checks",
+	"description": "Link to checks UI."
+    },
+    "services": {
+	"message": "Services",
+	"description": "Link to services UI."
+    },
+    "tools": {
+	"message": "Tools",
+	"description": "Link to tools UI."
+    },
+    "plugins": {
+	"message": "Plugins",
+	"description": "Link to plugins UI."
+    },
+    "toolsConfig": {
+	"message": "Return to L10n tools config",
+	"description": "Link to L10n config page."
+    },
+    "configTitleNotifications": {
+	"message": "Configure notifications",
+	"description": "Title on notifications configuration page"
+    },
+    "configTitlePreferences": {
+	"message": "Configure preferences",
+	"description": "Title on preferences configuration page"
+    },
+    "configTitlePlugins": {
+	"message": "Configure plugins",
+	"description": "Title on plugins configuration page"
+    },
+    "configTitleServices": {
+	"message": "Configure services",
+	"description": "Title on services configuration page"
+    },
+    "configTitleTools": {
+	"message": "Configure tools",
+	"description": "Title on tools configuration page"
+    },
+    "configTitleApps": {
+	"message": "Configure web apps",
+	"description": "Title on web apps page"
+    },
+    "sidebarTitleApps": {
+	"message": "Sidebar web apps",
+	"description": "Title for web apps in sidebar"
+    },
+    "appsAddWebApp": {
+	"message": "Add web app",
+	"description": "Prompt to add a web app"
+    },
+    "appsAddWebAppLegend": {
+	"message": "Add app form",
+	"description": "Prompt to add a web app"
+    },
+    "appsInstalledList": {
+	"message": "Installed apps",
+	"description": "Title of apps list"
+    },
+    "appsRecommendedList": {
+	"message": "Recommended apps",
+	"description": "Title of recommended apps list"
+    },
+    "appsAddButton": {
+	"message": "Add app",
+	"description": "Add app button"
+    },
+    "appsSelectPluginType": {
+	"message": "Select plugin type",
+	"description": "Placeholder in plugin type select"
+    },
+    "appsUpdateAppButton": {
+	"message": "Update",
+	"description": "Button to update app info"
+    },
+    "appsDeleteAppButton": {
+	"message": "Delete",
+	"description": "Button to delete app info"
+    },
+    "appsAddName": {
+	"message": "Name",
+	"description": "Placeholder for name in app form"
+    },
+    "appsAddURL": {
+	"message": "URL",
+	"description": "Placeholder for URL in app form"
+    },
+    "pluginsInstalledList": {
+	"message": "Installed plugins",
+	"description": "Title of list of installed plugins"
+    },
+    "checksName": {
+	"message": "Checks",
+	"description": "Title of checks tool"
+    },
+    "servicesMTName": {
+	"message": "Machine translation services",
+	"description": "Title of MT services"
+    },
+    "servicesTMName": {
+	"message": "Translation memory services",
+	"description": "Title of TM services"
+    },
+    "notifyPluginRegistered": {
+	"message": "L10n plugin added",
+	"description": "Notification title when plugin is added"
+    },
+    "notifyPluginRemoved": {
+	"message": "L10n plugin removed",
+	"description": "Notification title when plugin is removed"
+    },
+    "notifyAppAdded": {
+	"message": "L10n app added",
+	"description": "Notification title when app is added"
+    },
+    "notifyAppRemoved": {
+	"message": "L10n app removed",
+	"description": "Notification title when app is removed"
+    },
+    "notificationsSystem": {
+	"message": "System notifications",
+	"description": "Title of system notifications list"
+    }
+}

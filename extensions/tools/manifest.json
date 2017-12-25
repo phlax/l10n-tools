@@ -1,0 +1,44 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_extensionName__",
+    "description": "__MSG_extensionDescription__",
+    "default_locale": "en",
+    "version": "1.0",
+    "sidebar_action": {
+	"default_title": "L10n tools",
+	"default_panel": "html/sidebar.html",
+	"default_icon": "images/l10n.png"
+    },
+    "applications": {
+      "gecko": {
+	  "id": "l10n@mozilla.com",
+	  "strict_min_version": "42.0"
+      }
+    },
+    "background": {
+	"scripts": ["dist/l10n-tools.js"]
+    },
+    "options_ui": {
+	"page": "html/options.html"
+    },
+    "permissions": [
+	"<all_urls>",
+	"storage",
+	"tabs",
+	"activeTab",
+	"downloads",
+	"downloads.open",
+	"management",
+	"notifications"
+    ],
+    "web_accessible_resources": [
+	"images/pontoon.svg"
+    ],
+    "commands": {
+	"_execute_sidebar_action": {
+	    "suggested_key": {
+		"default": "Ctrl+Shift+L"
+	    }
+	}
+    }
+}

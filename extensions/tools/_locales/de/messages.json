@@ -1,0 +1,42 @@
+{
+    "extensionName": {
+	"message": "l10n-tools",
+	"description": "Name of the extension."
+    },
+    "extensionDescription": {
+	"message": "Web-Erweiterung für die Lokalisierung",
+	"description": "Description of the extension."
+    },
+    "preferences": {
+	"message": "Präferenzen",
+	"description": "Link to preferences UI."
+    },
+    "notifications": {
+	"message": "Benachrichtigungen",
+	"description": "Link to notifications UI."
+    },
+    "webApps": {
+	"message": "Web-Apps",
+	"description": "Link to web apps UI."
+    },
+    "checks": {
+	"message": "Kontrollen",
+	"description": "Link to checks UI."
+    },
+    "services": {
+	"message": "Dienstleistungen",
+	"description": "Link to services UI."
+    },
+    "plugins": {
+	"message": "Plugins",
+	"description": "Link to plugins UI."
+    },
+    "toolsConfig": {
+	"message": "Zurück zu l10n tools config",
+	"description": "Link to L10n config page."
+    },
+    "configureNotifications": {
+	"message": "Benachrichtigungen konfigurieren",
+	"description": "Title on notifications configuration page"
+    }
+}

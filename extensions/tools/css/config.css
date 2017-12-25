@@ -1,0 +1,149 @@
+
+
+h1, h2 {
+  border-bottom: 1px solid;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+    display: none;
+}
+
+body, div, ul, li, dl, dt, dd {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li, dl, dt, dd {
+    padding-left: 0.2em;
+}
+
+.left-23 {
+    width: 5em;
+    float: left;
+    clear: both;
+    padding: .5em;
+}
+
+
+li.app-recommended:after,
+.right-margin:after,
+.left-23:after,
+li.app-recommended:before,
+.right-margin:before,
+.left-23:before,
+.clear {
+  content: "";
+  display: table;
+}
+
+li.app-recommended:after,
+.right-margin:after,
+.left-23:after,
+.clear {
+  clear: both;
+}
+
+.container {
+    content: "";
+    display: table;
+    width: 100%;
+    padding: .7em .2em;
+}
+
+.left-23 img {
+    width: 4em;
+}
+
+
+.right-margin {
+    width: auto;
+    overflow: hidden;
+    padding-left: .5em;
+}
+
+.powered-by {
+    font-style: italic;
+}
+
+.powered-by img {
+    width: 1em;
+}
+
+#config-menu hr {
+    color: #eee;
+    opacity: .7;
+}
+
+#config-menu h3 a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+#config-menu li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+
+body {
+    // background: green;
+}
+
+#config {
+    // background: yellow;
+}
+
+#config h2 {
+    margin-top: 0;
+}
+
+#config a.config-link,
+#config a.config-link:visited {
+    text-decoration: none;
+    font-style: italic;
+    vertical-align: top;
+    font-size: 1.2em;
+    color: #777;
+    outline: none;
+}
+
+#config a.config-link img {
+    width: 1em;
+    opacity: .5;
+}
+
+#config h2 span {
+    vertical-align: top;
+    padding-left: .2em;
+}
+
+#config h2 img {
+    width: 1.2em;
+}
+
+#config h3 span {
+    vertical-align: top;
+    padding-left: .2em;
+}
+
+#config h3 {
+    margin-bottom: .2em;
+}
+
+#config h3 img {
+    width: 1.2em;
+}
+
+#config section {
+    padding: 1em;
+}
+
+#config section fieldset {
+    margin-bottom: .7em;
+    padding: 1em;
+}
