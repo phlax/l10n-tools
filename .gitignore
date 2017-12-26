@@ -59,9 +59,11 @@ log/
 
 # custom manage shell script
 rqworker
-manage
 
 *egg-info
 
 .cache
 .coverage
+
+
+web-ext-plugins
