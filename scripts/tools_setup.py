@@ -1,7 +1,6 @@
 
-import io
-import os
 import subprocess
+import sys
 
 
 CMD_WEBPACK = (
@@ -53,9 +52,9 @@ def run_webext(*args):
 
 def run_nvm_export_env(*args):
     command = ". ~/.nvm/nvm.sh && env"
-    result = subprocess.check_output(command, shell=True, executable="/bin/bash")
+    result = subprocess.check_output(
+        command, shell=True, executable="/bin/bash")
     newenv = dict(line.partition('=')[::2] for line in result.split('\n'))
-    import sys
     for k, v in newenv.items():
         if k.startswith("NVM"):
             sys.stdout.write("%s=%s\n" % (k, v))
