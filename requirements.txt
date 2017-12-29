@@ -1,0 +1,7 @@
+makeyfile
+flake8
+pytest-mock
+requests_mock
+coverage
+pytest-coverage
+codecov

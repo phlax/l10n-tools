@@ -1,0 +1,88 @@
+{
+    "scripts": ["./scripts"],
+    "paths": ["./scripts", "./node_modules/.bin"],
+    "sequence": {
+	"setup": [
+	    "nvm-install",
+	    "npm-install",
+	    "fetch-web-ext-plugins",
+	    "webpack"],
+	"lint": ["lint-py", "lint-js", "lint-extensions"],
+	"lint-py": ["flake8"],
+	"lint-js": ["eslint"],
+	"lint-extensions": ["lint-pontoon", "lint-pootle", "lint-tools"],
+	"test": ["test-js", "test-py"],
+	"test-coverage": ["test-coverage-js", "test-coverage-py"],
+	"travis-run": ["test-coverage", "lint"],
+	"send-coverage": ["send-coverage-py", "send-coverage-js"],
+	"nvm-install": [
+	    "nvm-fetch",
+	    "node-install"
+	],
+        "check-js": ["test-js", "lint-js"]
+    },
+    "python": {
+	"webpack": "tools_setup.run_webpack",
+	"firefox-ext": "tools_setup.run_webext"
+    },
+    "shell": {
+	".": "",
+	"lint-extension": [
+	    "export NVM_DIR=\"$HOME/.nvm\" ",
+	    "  && . ~/.nvm/nvm.sh ",
+	    "  && nvm install node ",
+	    "  && nvm use node ",
+	    "  && web-ext lint ",
+	    "--ignore-files \"**/plugin.js~\" \"src/**js\" \"tests/**.js\" "
+	],
+	"lint-tools": [
+	    "makey lint-extension ",
+	    "-s extensions/tools/"],
+	"lint-pontoon": [
+	    "makey lint-extension ",
+	    "-s extensions/pontoon/"],
+	"lint-pootle": [
+	    "makey lint-extension ",
+	    "-s extensions/pootle/"],
+	"web-ext": "web-ext",
+	"fetch-web-ext-plugins": [
+	    "[ ! -d 'web-ext-plugins' ] ",
+	    "&& git clone https://github.com/phlax/web-ext-plugins || exit 0"
+	],
+	"test-js": [
+	    ". ~/.nvm/nvm.sh ",
+	    "&& nvm install node ",
+	    "&& nvm use node ",
+	    "&& npm run test"],
+	"test-js-debug": [
+	    ". ~/.nvm/nvm.sh ",
+	    "&& nvm use node ",
+	    "&& node debug --harmony ./node_modules/.bin/jest --runInBand"],
+	"test-coverage-js": [
+	    ". ~/.nvm/nvm.sh ",
+	    "&& nvm install node ",
+	    "&& nvm use node ",
+	    "&& npm run test-coverage"],
+	"test-py": "py.test -vv",
+	"test-coverage-py": "py.test -vv --cov-report=term --cov=. -v --duration=25",
+	"npm-install": ". ~/.nvm/nvm.sh && npm install .",
+	"flake8": "flake8 scripts",
+	"eslint": [
+	    ". ~/.nvm/nvm.sh ",
+	    "&& nvm use node ",
+	    "&& eslint ."],
+	"send-coverage-py": "codecov",
+	"send-coverage-js": "./node_modules/.bin/codecov",
+	"node-install": [
+	    "export NVM_DIR=\"$HOME/.nvm\" ",
+	    "  && . ~/.nvm/nvm.sh ",
+	    "  && nvm install node ",
+	    "  && nvm use node ",
+	    "  && echo '\nnode/npm installed, ",
+	    "to use `npm`/`node` immediately outside of this environment ",
+	    "you should do :\n\n",
+	    "   `. ~/.bashrc`\n\n'"
+	],
+	"nvm-fetch": "wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash"
+    }
+}
