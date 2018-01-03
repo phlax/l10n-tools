@@ -1,0 +1,7 @@
+**/*.bundle.js
+**/*.js.map
+**/dist/**
+web-ext-plugins/**
+vendor/**
+webpack.config.js
+coverage/**
