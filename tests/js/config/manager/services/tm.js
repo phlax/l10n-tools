@@ -3,13 +3,13 @@ import React from 'react';
 
 import {shallow} from 'enzyme';
 
-import TMServiceConfig from 'l10n-tools/config/manager/services/tm';
+import SERVICEServiceConfig from 'l10n-tools/config/manager/services/tm';
 import TMConfig from 'l10n-tools/config/manager/services/tm-config';
 
 
-test('TMServiceConfig render', () => {
-    const tms = [1, 2, 3]
-    const config = shallow(<TMServiceConfig tms={tms} />);
+test('SERVICEServiceConfig render', () => {
+    const services = [1, 2, 3]
+    const config = shallow(<SERVICEServiceConfig services={services} />);
     expect(config.text()).toBe("<TMConfig /><TMConfig /><TMConfig />")
 })
 

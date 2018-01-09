@@ -1,21 +1,21 @@
 
-import React from 'react';
+import PluginService from 'web-ext-plugins/manager/services/service';
 
-import PluginService from 'web-ext-plugins/manager/services/service'
+import MTServiceConfig from 'l10n-tools/config/manager/services/mt';
+import schema from 'l10n-tools/schema/mt.json';
 
-import MTServicesConfig from 'l10n-tools/config/manager/services/mt';
 
-
-export default class MTServices extends PluginService {
+export default class MTService extends PluginService {
 
     get name () {
         return "servicesMTName";
     }
 
-    renderServicesConfig (services) {
-        return (
-            <MTServicesConfig
-               service={this}
-               mts={services} />);
+    get schema () {
+        return schema;
+    }
+
+    get configComponent () {
+        return MTServiceConfig;
     }
 }

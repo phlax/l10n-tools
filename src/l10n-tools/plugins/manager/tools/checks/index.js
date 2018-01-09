@@ -29,7 +29,7 @@ export default class ChecksTool extends PluginTool {
         return schema;
     }
 
-    renderToolConfig (manager, type) {
+    renderConfig (manager, type) {
         return (
             <ChecksToolConfig
                manager={manager}
