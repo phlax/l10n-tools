@@ -1,0 +1,10 @@
+{
+    "extensionName": {
+	"message": "l10n-tools-weblate",
+	"description": "Name of the extension."
+    },
+    "extensionDescription": {
+	"message": "Web extension for Weblate localization",
+	"description": "Description of the extension."
+    }
+}

@@ -10,5 +10,5 @@
     "servicesTMAmagama": {
 	"message": "Amagama translation memory service",
 	"description": "Title in list of installed services"
-    },
+    }
 }

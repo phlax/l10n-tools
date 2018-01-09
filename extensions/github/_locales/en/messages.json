@@ -1,0 +1,10 @@
+{
+    "extensionName": {
+	"message": "l10n-tools-github",
+	"description": "Name of the extension."
+    },
+    "extensionDescription": {
+	"message": "Web extension for localization with Github",
+	"description": "Description of the extension."
+    }
+}
