@@ -6,7 +6,7 @@ A browser addon for localization.
 - Connects online translation platforms (eg.
   `Pontoon <https://github.com/mozilla/pontoon/>`_,
   `Pootle <https://github.com/translate/pootle/>`_,
-  `Weblate <https://github.com/weblate/weblate/>`_)
+  `Weblate <https://github.com/WeblateOrg/weblate/>`_)
   with localization repositories (eg. hosted on `Github <https://github.com/>`_)
 - Adds custom translation services, eg translation memory, machine translation.
 - Adds customizable checks framework
