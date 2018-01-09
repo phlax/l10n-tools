@@ -30,8 +30,7 @@ class CaighdeanPlugin extends MTPlugin {
                     targetLanguage: ['ga-IE']},
                 caighdeanMT2: {
                     name: "servicesMTCaighdean2",
-                    targetLanguage: ['ga-IE']}}
-        }
+                    targetLanguage: ['ga-IE']}}}
     }
 
     get mt () {
