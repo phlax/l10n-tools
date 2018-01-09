@@ -1,0 +1,15 @@
+{
+    "id": "checks",
+    "type": "object",
+    "additionalProperties": {
+        "properties": {
+            "sourceRegex": {
+                "type": "string"
+            },
+            "targetRegex": {
+                "type": "string"
+            }
+        },
+        "required": ["targetRegex"]
+    }
+}

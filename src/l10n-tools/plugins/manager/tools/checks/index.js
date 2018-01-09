@@ -7,6 +7,8 @@ import ChecksToolConfig from 'l10n-tools/config/manager/tools/checks';
 
 import PluginTool from 'web-ext-plugins/manager/tools/tool'
 
+import schema from 'l10n-tools/schema/checks.json'
+
 
 export default class ChecksTool extends PluginTool {
 
@@ -24,21 +26,7 @@ export default class ChecksTool extends PluginTool {
     }
 
     get schema () {
-        return {
-            "id": "checks",
-            "type": "object",
-            "additionalProperties": {
-                "properties": {
-                    "sourceRegex": {
-                        "type": "string"
-                    },
-                    "targetRegex": {
-                        "type": "string"
-                    },
-                },
-                required: ["targetRegex"]
-            }
-        }
+        return schema;
     }
 
     renderToolConfig (manager, type) {
