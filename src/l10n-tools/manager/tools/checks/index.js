@@ -4,13 +4,11 @@ import React from 'react';
 import CustomChecksRegistry from './registry'
 import ChecksRunner from './runner'
 import ChecksToolConfig from 'l10n-tools/config/manager/tools/checks';
-
-import PluginTool from 'web-ext-plugins/manager/tools/tool'
-
+import PluginExtension from 'web-ext-plugins/manager/extension';
 import schema from 'l10n-tools/schema/checks.json'
 
 
-export default class ChecksTool extends PluginTool {
+export default class ChecksTool extends PluginExtension {
 
     constructor (manager) {
         super(manager)

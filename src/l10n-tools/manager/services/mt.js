@@ -1,11 +1,11 @@
 
-import PluginService from 'web-ext-plugins/manager/services/service';
+import PluginExtension from 'web-ext-plugins/manager/extension';
 
 import MTServiceConfig from 'l10n-tools/config/manager/services/mt';
 import schema from 'l10n-tools/schema/mt.json';
 
 
-export default class MTService extends PluginService {
+export default class MTService extends PluginExtension {
 
     get name () {
         return "servicesMTName";
