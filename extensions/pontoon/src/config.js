@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import AddonConfig from 'web-ext-plugins/config/addon';
+import AddonConfig from 'web-ext-plugins/addon/config';
 
 import PontoonPlugin from "./plugin"
 

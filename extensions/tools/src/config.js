@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import PluginManagerConfig from 'web-ext-plugins/config/manager';
+import PluginManagerConfig from 'web-ext-plugins/manager/config';
 import L10nToolsPluginManager from 'l10n-tools/manager';
 
 

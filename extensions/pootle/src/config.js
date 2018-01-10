@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import PootlePlugin from "./plugin"
 
-import AddonConfig from 'web-ext-plugins/config/addon';
+import AddonConfig from 'web-ext-plugins/addon/config';
 
 
 class PootleConfig extends AddonConfig {
