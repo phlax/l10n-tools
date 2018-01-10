@@ -9,8 +9,8 @@ import CheckInfo from 'l10n-tools/config/manager/tools/checks/info';
 
 
 test('ChecksToolConfig render', () => {
-    const manager = {tools: {get: jest.fn(() => Promise.resolve({foo: 7, bar: 23}))}}
-    const config = shallow(<ChecksToolConfig manager={manager} />);
+    const extension = {manager: {tools: {get: jest.fn(() => Promise.resolve())}}}
+    const config = shallow(<ChecksToolConfig extension={extension} />);
     expect(config.text()).toBe("<CustomCheckForm />")
 })
 

@@ -3,14 +3,14 @@ import React from 'react';
 
 import {shallow} from 'enzyme';
 
-import SERVICEServiceConfig from 'l10n-tools/config/manager/services/mt';
+import MTServiceConfig from 'l10n-tools/config/manager/services/mt';
 import MTConfig from 'l10n-tools/config/manager/services/mt-config';
 
 
-test('SERVICEServiceConfig render', () => {
-    const services = [1, 2, 3]
-    const config = shallow(<SERVICEServiceConfig services={services} />);
-    expect(config.text()).toBe("<MTConfig /><MTConfig /><MTConfig />")
+test('MTServiceConfig render', () => {
+    const extension = {manager: {services: {get: jest.fn(() => Promise.resolve())}}}
+    const config = shallow(<MTServiceConfig extension={extension} type="foo" />);
+    expect(config.text()).toBe("")
 })
 
 
