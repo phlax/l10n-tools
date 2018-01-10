@@ -1,7 +1,7 @@
 
-import ChecksTool from 'l10n-tools/plugins/manager/tools/checks';
-import CustomChecksRegistry from 'l10n-tools/plugins/manager/tools/checks/registry';
-import ChecksRunner from 'l10n-tools/plugins/manager/tools/checks/runner';
+import ChecksTool from 'l10n-tools/manager/tools/checks';
+import CustomChecksRegistry from 'l10n-tools/manager/tools/checks/registry';
+import ChecksRunner from 'l10n-tools/manager/tools/checks/runner';
 
 
 test('ChecksTool constructor', () => {

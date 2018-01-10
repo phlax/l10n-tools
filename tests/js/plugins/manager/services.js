@@ -1,7 +1,7 @@
 
 
-import MTServices from 'l10n-tools/plugins/manager/services/mt';
-import TMServices from 'l10n-tools/plugins/manager/services/tm';
+import MTServices from 'l10n-tools/manager/services/mt';
+import TMServices from 'l10n-tools/manager/services/tm';
 
 
 test('TMServices constructor', () => {

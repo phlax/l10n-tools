@@ -1,5 +1,5 @@
 
-import Plugin from 'l10n-tools/plugins/addon/plugin';
+import Plugin from 'l10n-tools/addon/plugin';
 import AddonPluginManager from 'web-ext-plugins/addon/manager'
 import AddonPluginHandler from 'web-ext-plugins/addon/handler'
 

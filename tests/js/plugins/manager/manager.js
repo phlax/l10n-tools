@@ -1,7 +1,7 @@
 
 import RunAmock from 'web-ext-plugins/mock/amock';
 
-import L10nToolsPluginManager from 'l10n-tools/plugins/manager';
+import L10nToolsPluginManager from 'l10n-tools/manager';
 const plugins = require('web-ext-plugins/manager/plugins');
 const handler = require('web-ext-plugins/manager/handler');
 const apps = require('web-ext-plugins/manager/apps');

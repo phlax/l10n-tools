@@ -1,8 +1,8 @@
 
 import {NotImplementedError} from 'web-ext-plugins/errors';
 
-import Plugin from 'l10n-tools/plugins/addon/plugin';
-import MTPlugin from 'l10n-tools/plugins/addon/mt';
+import Plugin from 'l10n-tools/addon/plugin';
+import MTPlugin from 'l10n-tools/addon/mt';
 
 
 test('MTPlugin constructor', () => {
