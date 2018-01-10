@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import L10nToolsPluginManager from 'l10n-tools/plugins/manager';
+import L10nToolsPluginManager from 'l10n-tools/manager';
 
 import PluginSidebar from 'web-ext-plugins/sidebar';
 

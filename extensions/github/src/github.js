@@ -1,5 +1,5 @@
 
-import Plugin from 'l10n-tools/plugins/addon/plugin';
+import Plugin from 'l10n-tools/addon/plugin';
 
 
 const longDescription = [

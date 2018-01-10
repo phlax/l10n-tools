@@ -1,5 +1,5 @@
 
-import TMPlugin from 'l10n-tools/plugins/addon/tm';
+import TMPlugin from 'l10n-tools/addon/tm';
 
 
 class AmagamaTM {

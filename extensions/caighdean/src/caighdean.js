@@ -1,5 +1,5 @@
 
-import MTPlugin from 'l10n-tools/plugins/addon/mt';
+import MTPlugin from 'l10n-tools/addon/mt';
 
 
 class CaighdeanMT {

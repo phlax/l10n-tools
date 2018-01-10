@@ -1,6 +1,6 @@
 
 import WeblateApp from "./weblate-app"
-import AppPlugin from 'l10n-tools/plugins/addon/app';
+import AppPlugin from 'l10n-tools/addon/app';
 
 const longDescription = [
     'Provides the following features',

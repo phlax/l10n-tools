@@ -1,6 +1,6 @@
 
 import PontoonApp from "./pontoon-app"
-import AppPlugin from 'l10n-tools/plugins/addon/app';
+import AppPlugin from 'l10n-tools/addon/app';
 
 
 const longDescription = [

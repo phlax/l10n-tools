@@ -1,5 +1,5 @@
 
-import WebContent from 'l10n-tools/plugins/content/web';
+import WebContent from 'l10n-tools/content/web';
 
 
 export default class WebRepoContent extends WebContent {
