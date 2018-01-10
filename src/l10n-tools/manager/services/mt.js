@@ -1,7 +1,7 @@
 
 import PluginExtension from 'web-ext-plugins/manager/extension';
 
-import MTServiceConfig from 'l10n-tools/config/manager/services/mt';
+import MTServiceConfig from 'l10n-tools/manager/config/services/mt';
 import schema from 'l10n-tools/schema/mt.json';
 
 

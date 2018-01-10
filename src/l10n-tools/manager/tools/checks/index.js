@@ -1,7 +1,7 @@
 
 import CustomChecksRegistry from './registry'
 import ChecksRunner from './runner'
-import ChecksToolConfig from 'l10n-tools/config/manager/tools/checks';
+import ChecksToolConfig from 'l10n-tools/manager/config/tools/checks';
 import PluginExtension from 'web-ext-plugins/manager/extension';
 import schema from 'l10n-tools/schema/checks.json'
 
