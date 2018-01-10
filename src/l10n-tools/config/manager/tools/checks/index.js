@@ -16,7 +16,7 @@ export default class ChecksToolConfig extends React.Component {
     }
 
     componentDidMount() {
-        this.props.manager.tools.get().then(tools => {
+        this.props.extension.manager.tools.get().then(tools => {
             this.setState({checks: tools[this.props.type]});
         });
     }
@@ -31,11 +31,11 @@ export default class ChecksToolConfig extends React.Component {
                         <PackagedCheck
                            check={data}
                            key={key}
-                           manager={this.props.manager}
+                           manager={this.props.extension.manager}
                            />);
                 })}
               </ul>
-              <CustomCheckForm manager={this.props.manager} />
+              <CustomCheckForm manager={this.props.extension.manager} />
             </div>);
     }
 }
