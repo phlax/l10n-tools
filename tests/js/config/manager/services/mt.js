@@ -3,8 +3,8 @@ import React from 'react';
 
 import {shallow} from 'enzyme';
 
-import MTServiceConfig from 'l10n-tools/config/manager/services/mt';
-import MTConfig from 'l10n-tools/config/manager/services/mt-config';
+import MTServiceConfig from 'l10n-tools/manager/config/services/mt';
+import MTConfig from 'l10n-tools/manager/config/services/mt-config';
 
 
 test('MTServiceConfig render', () => {

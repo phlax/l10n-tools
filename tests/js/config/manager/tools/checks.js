@@ -3,9 +3,9 @@ import React from 'react';
 
 import {shallow} from 'enzyme';
 
-import ChecksToolConfig from 'l10n-tools/config/manager/tools/checks';
-import PackagedCheck from 'l10n-tools/config/manager/tools/checks/packaged';
-import CheckInfo from 'l10n-tools/config/manager/tools/checks/info';
+import ChecksToolConfig from 'l10n-tools/manager/config/tools/checks';
+import PackagedCheck from 'l10n-tools/manager/config/tools/checks/packaged';
+import CheckInfo from 'l10n-tools/manager/config/tools/checks/info';
 
 
 test('ChecksToolConfig render', () => {
