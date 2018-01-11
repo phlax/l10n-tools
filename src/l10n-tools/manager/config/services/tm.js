@@ -18,7 +18,8 @@ export default class TMServiceConfig extends React.Component {
     }
 
     render() {
-        const {tms} = this.state;
+        let {tms} = this.state;
+        tms = tms || {};
         return (
             <ul>
               {Object.entries(tms).map(([tm, data], key) => {

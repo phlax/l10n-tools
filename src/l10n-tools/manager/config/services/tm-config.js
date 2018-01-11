@@ -8,9 +8,9 @@ export default class TMConfig extends React.Component {
 
     render() {
         return (
-            <div>
+            <li>
               <_ text={this.props.data.name} l10n={this.props.data.plugin} />
-            </div>
+            </li>
         );
     }
 }

@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import MTConfig from './mt-config';
+import MTConfig from './config';
 
 
 export default class MTServicesConfig extends React.Component {
