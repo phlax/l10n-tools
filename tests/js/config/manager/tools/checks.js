@@ -11,7 +11,7 @@ import CheckInfo from 'l10n-tools/manager/config/tools/checks/info';
 test('ChecksToolConfig render', () => {
     const extension = {manager: {tools: {get: jest.fn(() => Promise.resolve())}}}
     const config = shallow(<ChecksToolConfig extension={extension} />);
-    expect(config.text()).toBe("<CustomCheckForm />")
+    expect(config.text()).toBe("<OverlayButton /><OverlayButton />")
 })
 
 
@@ -25,5 +25,6 @@ test('PackagedCheck render', () => {
 test('CheckInfo render', () => {
     const check = {plugin: {icon: 'PLUGINICON'}}
     const config = shallow(<CheckInfo check={check} />);
-    expect(config.text()).toBe("Source regex: Target regex: Test")
+    expect(config.text()).toBe(
+        "Source regex: Target regex: <OverlayButton />")
 })
