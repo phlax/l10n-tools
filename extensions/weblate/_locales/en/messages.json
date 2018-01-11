@@ -6,5 +6,9 @@
     "extensionDescription": {
 	"message": "Web extension for Weblate localization",
 	"description": "Description of the extension."
+    },
+    "weblate": {
+	"message": "Weblate!",
+	"description": "Title in list of installed plugins"
     }
 }
