@@ -87,13 +87,17 @@
 	"message": "Recommended apps",
 	"description": "Title of recommended apps list"
     },
-    "appsAddButton": {
+    "appsAddAppButton": {
 	"message": "Add app",
 	"description": "Add app button"
     },
     "appsSelectPluginType": {
 	"message": "Select plugin type",
 	"description": "Placeholder in plugin type select"
+    },
+    "appsInstallAppButton": {
+	"message": "Install",
+	"description": "Button to install an app"
     },
     "appsUpdateAppButton": {
 	"message": "Update",
@@ -111,13 +115,33 @@
 	"message": "URL",
 	"description": "Placeholder for URL in app form"
     },
+    "pluginsInstalledTab": {
+	"message": "Installed",
+	"description": "Title of list of installed plugins"
+    },
     "pluginsInstalledList": {
 	"message": "Installed plugins",
 	"description": "Title of list of installed plugins"
     },
+    "pluginsRecommendedTab": {
+	"message": "Recommended",
+	"description": "Title of list of recommended plugins"
+    },
+    "pluginsRecommendedList": {
+	"message": "Recommended plugins",
+	"description": "Title of list of recommended plugins"
+    },
     "checksName": {
 	"message": "Checks",
 	"description": "Title of checks tool"
+    },
+    "terminologyName": {
+	"message": "Terminology",
+	"description": "Title of terminology tool"
+    },
+    "toolsTerminologyUploadTBXButton": {
+	"message": "Upload a TBX file",
+	"description": "Button to prompt TBX upload"
     },
     "servicesMTName": {
 	"message": "Machine translation services",
@@ -146,5 +170,30 @@
     "notificationsSystem": {
 	"message": "System notifications",
 	"description": "Title of system notifications list"
+    },
+    "servicesTestMT": {
+	"message": "Test machine translation",
+	"description": "Title in popup to test machine translation"
+    },
+    "servicesTestMTSource": {
+	"message": "Source string",
+	"description": "Prompt for source string in machine translation test popup"
+    },
+
+    "tableHeaderName": {
+	"message": "Name",
+	"description": "Column header for (preference) names"
+    },
+    "tableHeaderValue": {
+	"message": "Value",
+	"description": "Column header for (preference) values"
+    },
+    "tableHeaderType": {
+	"message": "Type",
+	"description": "Column header for primitive types - eg string, integer, boolean"
+    },
+    "tableHeaderPlugin": {
+	"message": "Plugin",
+	"description": "Column header for (preference) plugins"
     }
 }
