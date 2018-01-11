@@ -1,0 +1,14 @@
+{
+    "extensionName": {
+	"message": "l10n-tools-pootle",
+	"description": "Name of the extension."
+    },
+    "extensionDescription": {
+	"message": "Web extension for Pootle localization",
+	"description": "Description of the extension."
+    },
+    "pootle": {
+	"message": "Pootle!",
+	"description": "Title in list of installed plugins"
+    }
+}
