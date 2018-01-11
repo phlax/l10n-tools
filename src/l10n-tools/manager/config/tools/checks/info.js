@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {OverlayButton} from 'web-ext-plugins/widgets/overlay';
+
 import CheckTestForm from './forms/checktest';
 
 
@@ -7,45 +9,35 @@ export default class CheckInfo extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {showTest: false};
+        this.state = {testResult: ''}
     }
 
-    revealCheckTest() {
-        this.setState({showTest: true});
-    }
-
-    testCheck(evt, state) {
-        evt.preventDefault();
-        const {source, target} = state;
-        this.props.manager.checks.testCheck(evt.target.name, source, target).then(success => {
-            if (!success) {
-                this.setState({testResult: 'Check failed!'});
-            } else {
-                this.setState({testResult: 'Check passed!'});
-            }
-        });
+    renderCheckTest () {
+        const {check} = this.props;
+        const {testResult} = this.state;
+        if (check) {
+            return (
+                <CheckTestForm
+                   testResult={testResult}
+                   check={check}
+                   manager={this.props.manager} />);
+        }
+        return 'TEST CHECK'
     }
 
     render() {
-        const {showTest} = this.state;
-        const {testResult} = this.state;
         return (
             <div>
               <p>Source regex: {this.props.check.sourceRegex}</p>
               <p>Target regex: {this.props.check.targetRegex}</p>
-
-              {showTest
-                  && <CheckTestForm
-                        parent={this}
-                        testResult={testResult}
-                        check={this.props.check}
-                        manager={this.props.manager} />}
               <div>
-                <button
-                   name={this.props.check.name}
-                   onClick={this.revealCheckTest.bind(this)}>Test</button>
+                <OverlayButton
+                   text="toolsChecksRunCheckTestButton"
+                   onClick={() => {this.props.runCheck(this.props.check)}}
+                   id="CHECKS">
+                  {this.renderCheckTest()}
+                </OverlayButton>
               </div>
             </div>);
-
     }
 }

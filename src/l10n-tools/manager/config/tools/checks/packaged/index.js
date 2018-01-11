@@ -24,8 +24,11 @@ export default class PackagedCheck extends React.Component {
               <img src={icon} width="24px" />
               <a href="#" onClick={this.toggleCheckInfo.bind(this)}>{this.props.check.name}</a>
               {showCheckInfo
-                  && (<CheckInfo
+                  && (
+                      <CheckInfo
+                         extension={this.props.extension}
                          manager={this.props.manager}
+                         runCheck={this.props.runCheck}
                          check={this.props.check} />)}
             </li>);
     }
