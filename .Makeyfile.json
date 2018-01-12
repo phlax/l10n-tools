@@ -72,7 +72,11 @@
 	    "&& nvm use node ",
 	    "&& eslint ."],
 	"send-coverage-py": "codecov",
-	"send-coverage-js": "./node_modules/.bin/codecov",
+	"send-coverage-js": [
+	    "export NVM_DIR=\"$HOME/.nvm\" ",
+	    "  && . ~/.nvm/nvm.sh ",
+	    "  && nvm use node ",
+            "./node_modules/.bin/codecov"],
 	"node-install": [
 	    "export NVM_DIR=\"$HOME/.nvm\" ",
 	    "  && . ~/.nvm/nvm.sh ",
