@@ -135,6 +135,18 @@
 	"message": "Checks",
 	"description": "Title of checks tool"
     },
+    "toolsChecksAddCustomCheckButton": {
+	"message": "Add custom check",
+	"description": "Button to add custom checks"
+    },
+    "toolsChecksRunCheckTestButton": {
+	"message": "Test check",
+	"description": "Button to run a check"
+    },
+    "toolsChecksRunAllChecksTestButton": {
+	"message": "Run checks",
+	"description": "Button to run all checks"
+    },
     "terminologyName": {
 	"message": "Terminology",
 	"description": "Title of terminology tool"
