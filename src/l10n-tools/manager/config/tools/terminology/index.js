@@ -2,7 +2,7 @@
 import React from 'react';
 
 import CustomTerminologyForm from './forms';
-import OverlayButton from 'web-ext-plugins/widgets/overlay';
+import {OverlayButton} from 'web-ext-plugins/widgets/overlay';
 
 
 export default class TerminologyToolConfig extends React.Component {
