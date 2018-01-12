@@ -16,6 +16,10 @@
       "<rootDir>/src/",
       "<rootDir>/web-ext-plugins/src/"
     ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "identity-obj-proxy"
+    },
     "setupFiles": [
       "./tests/js/__setup__/chrome.js"
     ],
@@ -54,6 +58,7 @@
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "eslint-plugin-react": "^7.5.1",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^22.0.4",
     "jest-webextension-mock": "^3.0.0",
     "react": "^16.2.0",
