@@ -207,5 +207,17 @@
     "tableHeaderPlugin": {
 	"message": "Plugin",
 	"description": "Column header for (preference) plugins"
+    },
+    "tableHeaderTerm": {
+	"message": "Term",
+	"description": "Column header for (terminology) terms"
+    },
+    "tableHeaderTranslation": {
+	"message": "Translation",
+	"description": "Column header for (preference) translations"
+    },
+    "tableHeaderDescription": {
+	"message": "Description",
+	"description": "Column header for primitive descriptions - eg string, integer, boolean"
     }
 }
