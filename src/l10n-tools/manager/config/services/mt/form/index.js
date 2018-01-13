@@ -1,13 +1,13 @@
 
 import React from 'react';
 
-import {Select, Option} from 'web-ext-plugins/widgets/select';
 import Subheading from 'web-ext-plugins/widgets/sub-heading';
-import TextInput from 'web-ext-plugins/widgets/text-input';
 import {Columns} from 'web-ext-plugins/widgets/split-container';
 
+import MTTestForm from './form';
 
-export default class MTTestForm extends Columns {
+
+export default class MTTestFormOverlay extends Columns {
 
     get columns () {
         return [
@@ -31,13 +31,7 @@ export default class MTTestForm extends Columns {
             <div>
               {this.renderMTTitle()}
               {this.renderMTInfo()}
-              <TextInput placeholder="servicesTestMTSource" />
-              <p>
-                Source Language: <Select><Option /></Select>
-              </p>
-              <p>
-                Target Language: <Select><Option /></Select>
-              </p>
+              <MTTestForm />
             </div>
         );
     }
