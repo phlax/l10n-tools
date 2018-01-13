@@ -4,7 +4,7 @@ import React from 'react';
 import {shallow} from 'enzyme';
 
 import TMServiceConfig from 'l10n-tools/manager/config/services/tm';
-import TMConfig from 'l10n-tools/manager/config/services/tm-config';
+import TMConfig from 'l10n-tools/manager/config/services/tm/config';
 
 
 test('TMServiceConfig render', () => {

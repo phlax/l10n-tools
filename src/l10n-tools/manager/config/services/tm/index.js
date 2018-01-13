@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import TMConfig from './tm-config';
+import TMConfig from './config';
 
 
 export default class TMServiceConfig extends React.Component {
