@@ -11,15 +11,16 @@ export default class CustomTerminologyForm extends React.Component {
     constructor (props) {
         super(props);
         this.state = {termEntries: []};
-        this.parser = new TBXParser()
+        this.parser = new TBXParser();
+        this.uploadFile = this.uploadFile.bind(this);
     }
 
     uploadFile (evt) {
-        const curFiles = evt.target.files
+        const curFiles = evt.target.files;
         if (curFiles.length > 0) {
             this.parser.parseFile(curFiles[0], entries => {
-                this.setState({termEntries: entries})
-            })
+                this.setState({termEntries: entries});
+            });
         }
     }
 
@@ -28,8 +29,7 @@ export default class CustomTerminologyForm extends React.Component {
         return (
             <form>
               <Fieldset legend="">
-                upload term file placeholder
-                <input type="file" onChange={this.uploadFile.bind(this)} />
+                <input type="file" onChange={this.uploadFile} />
               </Fieldset>
               {termEntries.length > 0 &&
                   <TerminologyImportTable data={termEntries} />
