@@ -70,7 +70,8 @@
     "style-loader": "^0.19.1",
     "web-ext": "^2.2.2",
     "web-extensions": "^0.2.0",
-    "webpack": "1.14.0"
+    "webpack": "1.14.0",
+    "xml2js": "^0.4.19"
   },
   "dependencies": {
     "ajv": "^5.5.2",
@@ -78,7 +79,6 @@
     "child_process": "^1.0.2",
     "common-errors": "^1.0.5",
     "eslint": "^4.14.0",
-    "fs": "0.0.1-security",
     "jquery": "^3.2.1",
     "json-loader": "^0.5.7",
     "jsonschema": "^1.2.2",
