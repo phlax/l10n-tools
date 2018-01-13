@@ -45,16 +45,26 @@ export default class PontoonPlugin extends AppPlugin {
                 category: 'pontoon',
                 name: "preferenceFoo",
                 type: "string",
-                defaultValue: "foo"},
+                default: "foo7"},
+            pontoonFoo2: {
+                category: 'pontoon',
+                name: "preferenceFoo2",
+                type: "integer",
+                default: 23},
             pontoonBar: {
                 category: 'pontoon',
                 name: "preferenceBar",
                 type: "boolean",
-                defaultValue: "bar"},
+                default: true},
+            pontoonBar2: {
+                category: 'pontoon',
+                name: "preferenceBar2",
+                type: "boolean",
+                default: false},
             pontoonBaz: {
                 category: 'pontoon-other',
                 name: "preferenceBaz",
                 type: "string",
-                defaultValue: "bar"}}
+                default: "baz27"}}
     }
 }
