@@ -24,7 +24,7 @@
       "./tests/js/__setup__/chrome.js"
     ],
     "testMatch": [
-      "**/l10n-tools/tests/js/(plugins|tools|checks|config)/**/*.js?(x)",
+      "**/l10n-tools/tests/js/(tools|checks|addon|manager)/**/*.js?(x)",
       "**/extensions/**/tests/*.js?(x)",
       "**/?(*.)(spec|test).js?(x)"
     ],
@@ -32,7 +32,7 @@
     "collectCoverage": true,
     "collectCoverageFrom": [
       "**/*.{js,jsx}",
-      "**/l10n-tools/tests/js/(plugins|tools|checks|config)/**/*.js?(x)",
+      "**/l10n-tools/tests/js/(tools|checks|addon|manager)/**/*.js?(x)",
       "**/l10n-tools/src/**/*.js?(x)",
       "**/l10n-tools/extensions/**/*.js?(x)",
       "!**/*.eslintrc.js",
