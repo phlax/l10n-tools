@@ -3,7 +3,7 @@ import CustomChecksRegistry from './registry'
 import ChecksRunner from './runner'
 import ChecksToolConfig from 'l10n-tools/manager/config/tools/checks';
 import PluginExtension from 'web-ext-plugins/manager/extension';
-import schema from 'l10n-tools/schema/checks.json'
+import schema from 'l10n-tools/schema/tools/checks.json'
 
 
 export default class ChecksTool extends PluginExtension {
