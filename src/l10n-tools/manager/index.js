@@ -3,8 +3,10 @@ import PluginManager from 'web-ext-plugins/manager';
 
 import ChecksTool from './tools/checks'
 import TerminologyTool from './tools/terminology'
+import TMTool from './tools/tm'
 import MTService from './services/mt'
 import TMService from './services/tm'
+import TerminologyService from './services/terminology'
 import appTypes from './apps/types'
 
 
@@ -27,6 +29,10 @@ export default class L10nToolsPluginManager extends PluginManager {
             'l10n.tools.terminology': {
                 tool: new TerminologyTool(this),
                 name: "terminologyName",
+            },
+            'l10n.tools.tm': {
+                tool: new TMTool(this),
+                name: "toolsTMName",
             }
         }
     }
