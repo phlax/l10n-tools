@@ -1,0 +1,22 @@
+{
+    "id": "tm",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "filename": {
+                "type": "string"
+            },
+            "term": {
+                "type": "string"
+            },
+            "translation": {
+                "type": "string"
+            },
+            "description": {
+                "type": "string"
+            }
+        },
+        "required": ["filename", "term", "translation"]
+    }
+}
