@@ -147,6 +147,14 @@
 	"message": "Run checks",
 	"description": "Button to run all checks"
     },
+    "toolsTMUploadTMXButton": {
+	"message": "Upload a TMX file",
+	"description": "Button to prompt TMX upload"
+    },
+    "toolsImportDataButton": {
+	"message": "Import data",
+	"description": "Button to prompt data import"
+    },
     "terminologyName": {
 	"message": "Terminology",
 	"description": "Title of terminology tool"
@@ -156,12 +164,20 @@
 	"description": "Button to prompt TBX upload"
     },
     "servicesMTName": {
-	"message": "Machine translation services",
+	"message": "Machine translation",
 	"description": "Title of MT services"
     },
+    "servicesTerminologyName": {
+	"message": "Terminology",
+	"description": "Title of terminology services"
+    },
     "servicesTMName": {
-	"message": "Translation memory services",
+	"message": "Translation memory",
 	"description": "Title of TM services"
+    },
+    "toolsTMName": {
+	"message": "Translation memory",
+	"description": "Title of TM tools"
     },
     "notifyPluginRegistered": {
 	"message": "L10n plugin added",
