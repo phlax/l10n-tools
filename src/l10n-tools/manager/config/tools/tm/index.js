@@ -1,22 +1,21 @@
 
 import React from 'react';
 
-import CustomTerminologyForm from './forms';
 import {OverlayButtonWidget} from 'web-ext-plugins/widgets/overlay';
+import CustomTMForm from './forms';
 
 
 export default class TMToolConfig extends OverlayButtonWidget {
 
     get text () {
-        return "toolsTerminologyUploadTBXButton";
+        return "toolsTMUploadTMXButton";
     }
 
     get id () {
-        return 'TERMINOLOGY';
+        return 'TM';
     }
 
     renderContent () {
-        return (<CustomTerminologyForm manager={this.props.extension.manager} />);
+        return (<CustomTMForm manager={this.props.extension.manager} />);
     }
-
 }
